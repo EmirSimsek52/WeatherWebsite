@@ -1,0 +1,161 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.theme{
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+label{
+  font-size: calc(1px + 2vmin);
+}
+
+.search-bar{
+ border: 1px solid white;
+ border-radius: 10px;
+ align-self: center;
+ opacity: 0.8;
+ width: 300px;
+ height: 25px ;
+ padding: 5px;
+ align-self: center;
+margin-top: 20px;
+opacity: 0.8;
+
+
+}
+.date{
+  font-size: calc(20px + 2vmin);
+}
+.currentday{
+background-image: url("https://cdn.pixabay.com/photo/2017/12/20/14/53/clouds-3030063_1280.jpg");
+ background-repeat: no-repeat;
+ background-size: cover; 
+ margin-top: 20px;
+ padding: 10px;
+width: 90%;
+height: 100%;
+border-radius: 10px;
+margin: 3%;
+}
+
+li{
+float: left;
+margin: 15px;
+list-style-type:none;
+margin-top: 30px;
+}
+.nextdays{
+  background-color:rgb(81, 155, 216);
+  background-image: url("https://r1.ilikewallpaper.net/ipad-air-wallpapers/download/37694/Close-up-drop-black-blue-rain-ipad-air-wallpaper-ilikewallpaper_com.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: calc(280px + 2vmin);
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 2%;
+  opacity: 0.8;
+  text-align: center;
+}
+h1{
+text-align: center;
+}
+.cityname{
+  font-size: 40px;
+  border-bottom: 2px solid white ;
+  width: 20%;
+   margin-bottom: -40px;
+}
+.raincurrent{
+  background-image: url("https://wallpaperaccess.com/full/664518.jpg");
+ background-repeat: no-repeat;
+ background-size: cover; 
+ margin-top: 20px;
+ padding: 10px;
+width: 90%;
+height: 100%;
+border-radius: 10px;
+margin: 4%;
+}
+.snowday{
+  background-image: url("https://getwallpapers.com/wallpaper/full/9/7/f/1072018-top-hq-background-1920x1200-computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin-top: 20px;
+  padding: 10px;
+ width: 90%;
+ height: 100%;
+ border-radius: 10px;
+ margin: 4%;
+}
+.clearday{
+  background-image: url("https://wallpaperaccess.com/full/429152.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 10px;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 4%;
+}
+.nextdayscloud{
+  background-color:rgb(81, 155, 216);
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/611/281/290/minimalism-clouds-artwork-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: calc(280px + 2vmin);
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 2%;
+  opacity: 0.8;
+  text-align: center;
+}
+.nextdaysclear{
+  background-color:rgb(81, 155, 216);
+  background-image: url("https://images.hdqwalls.com/wallpapers/moonlight-blue-sky-4k-cq.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: calc(280px + 2vmin);
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 2%;
+  opacity: 0.8;
+  text-align: center;
+}
+.nextdayssnow{
+  background-color:rgb(81, 155, 216);
+  background-image: url("https://4kwallpapers.com/images/wallpapers/snowy-trees-winter-forest-frozen-snow-covered-night-sky-2732x2732-5591.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: calc(280px + 2vmin);
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 2%;
+  opacity: 0.8;
+  text-align: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
